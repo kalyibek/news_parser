@@ -39,7 +39,6 @@ titles_incidents = soup_incidents.find_all('div', class_='title')
 titles_sport = soup_sport.find_all('div', class_='title')
 titles_business = soup_business.find_all('div', class_='title')
 
-categories = soup.find_all('a', class_='category')
 result = []
 
 for i in range(len(news_content)):
